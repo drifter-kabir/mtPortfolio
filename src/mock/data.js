@@ -28,15 +28,6 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: '1.Personal-Library.png',
-    title: 'Anonymous-Message-Board',
-    info: 'I have build this app using web app with HelmetJS with CRUD.\n1. User can send a POST request to /api/threads/{board} with form data including text and delete_password.\n2. User can send a GET request to /api/threads/{board}.\n3. User can send a PUT request to /api/threads/{board}.\n4. User can send a DELETE request to /api/replies/{board}',
-    info2: '',
-    url: 'https://boilerplate-project-messageboard.miltonkabir.repl.co/',
-    repo: 'https://github.com/drifter-kabir/Legacy-Information-Security-and-Quality-Assurance/tree/main/Anonymous%20Message%20Board', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: '4.Issue-Tracker.png',
     title: 'Issue-Tracker',
     info: 'I have completed this project with CRUD. I have written tests with Chai to ensure your applications work the way user expect them to.\n1.User can send a POST request to /api/issues/{projectname} \n2. User can send a GET request to /api/issues/{projectname} for an array of all issues for that specific projectname, with all the fields present for each issue.\n3.User can send a PUT request to /api/issues/{projectname} with an _id and one or more fields to update.\n4.User can send a DELETE request to /api/issues/{projectname} with an _id to delete an issue.',
